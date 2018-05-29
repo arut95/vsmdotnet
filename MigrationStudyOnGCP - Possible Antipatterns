@@ -1,6 +1,6 @@
 Antipatterns:
 
-Framework
+Framework - Only .Net Core is supported on Google App Engine (PaaS).  Other frameworks can work on Google Compute Engine (IaaS).
 Web Sockets
 SignalR
 Authentication
