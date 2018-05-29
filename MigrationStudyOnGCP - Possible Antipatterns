@@ -1,0 +1,46 @@
+Antipatterns:
+
+Framework
+Web Sockets
+SignalR
+Authentication
+Active Directory
+Caching
+File System access
+Database Access
+HardCoded Values
+MQ
+GAC
+WindowsForms
+WebForms
+Unmanaged Assemblies
+Registry
+WPF / WCF
+
+
+
+
+Yet to consider:
+
+Backing Services
+Configuration
+COTS
+Crystal Reports
+Dependency
+EncryptionAlgos
+Libraries
+Logs
+Package Manager
+Port
+PreDotNet
+XML
+Serialization
+ThirdPartyNamespaces
+Stateless
+Session
+WMI
+WindowsService
+Transactions
+Static
+XAML
+Reflection
