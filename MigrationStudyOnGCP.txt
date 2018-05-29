@@ -1,0 +1,102 @@
+Migration study on GCP:
+
+
+Framework ? 4.1 , ... ?
+
+
+Web Sockets :
+	Both the standard and flexible environments of Google Cloud App Engine do not currently support websockets. In order to use websockets you can use Compute Engine or Kubernetes Engine.
+	https://stackoverflow.com/questions/50325093/where-to-run-continuous-jobs-on-google-cloud-platform
+
+	Google tells that currently websockets are supported only in Go/Python/Java hosted apps.
+	https://stackoverflow.com/questions/48159847/google-app-engine-asp-net-core-web-api-signalr
+
+
+SignalR :
+	ASP.NET Core SignalR works perfectly with test clients until it is not hosted in GAE
+	https://stackoverflow.com/questions/48159847/google-app-engine-asp-net-core-web-api-signalr
+
+
+Authentication :
+	They can shift to a cloud identity management platform and maintain Windows authentication, just not with Google Identity Management. Google IDaaS is less of a true cloud directory service, and more of a user management platform for Google services with the ability to authenticate to a few select web applications. Managing and authenticating Windows systems is outside of Google’s scope.
+	Google’s Identity-as-a-Service strategy is really to support identity and access management to their cloud suite of solutions. They don’t support legacy infrastructure and device management capabilities which are central to directory service solutions such as Active Directory.
+	https://jumpcloud.com/blog/windows-authentication-google-identity-service/
+
+
+Active Directory :
+	Directory-as-a-Service® (DaaS) is a replacement to Active Directory and enables organizations to completely shift to the cloud while still controlling Windows authentication and devices. Additionally, Directory-as-a-Service tightly integrates with G Suite and Google Cloud, so you can get the best of both worlds – shifting to the cloud, but still controlling your user’s Windows systems.
+	https://jumpcloud.com/blog/windows-authentication-google-identity-service/
+
+
+Caching:
+	You can use Redis Labs Cloud to cache application data. Redis Cloud is a fully-managed service offering a variety of options for running Redis.
+
+
+Backing Services :
+
+Configuration :
+
+COTS :
+
+Crystal Reports:
+
+Database Access:
+
+Dependency :
+
+EncryptionAlgos :
+
+File System access :
+
+GAC :
+
+HardCoded Values :
+
+Libraries :
+
+Logs :
+
+MQ :
+
+Package Manager :
+
+Port :
+
+PreDotNet :
+
+WCF :
+
+XML :
+
+Serialization :
+
+ThirdPartyNamespaces :
+
+Stateless :
+
+Session :
+
+WindowsForms :
+
+WPF :
+
+WMI :
+
+WindowsService :
+
+Transactions :
+
+Static :
+
+XAML :
+
+Reflection :
+
+WebForms :
+
+Websockets :
+
+Registry :
+
+Unmanaged Assemblies:
+
